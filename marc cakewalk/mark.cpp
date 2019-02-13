@@ -7,7 +7,7 @@ int main (){
     int n;
     cin >> n;
     int A[n];
-    int sum=0;
+    long int sum=0;
     for(int i=0;i<n;i++){
         cin >> A[i];
     }
@@ -16,5 +16,5 @@ int main (){
         sum+=A[i]*pow(2,i);
     }
 
-    cout << int(sum);
+    cout << (sum);
 }
