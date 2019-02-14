@@ -1,0 +1,14 @@
+Marc loves cupcakes, but he also likes to stay fit. Each cupcake has a calorie count, and Marc can walk a distance to expend those calories. If Marc has eaten  j cupcakes so far, after eating a cupcake with  calories he must walk at least (2^j)*c miles to maintain his weight.
+
+Input Format
+
+The first line contains an integer n , the number of cupcakes in calorie . 
+The second line contains n  space-separated integers calorie[i].
+
+Constraints
+1<=n<=40
+1<=c[i]<=1000
+
+Output Format
+
+Print a long integer denoting the minimum number of miles Marc must walk to maintain his weight.
